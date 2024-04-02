@@ -1,0 +1,134 @@
+body{
+    height: 96vh;
+    background-color: gray;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    overflow: hidden;
+    
+}
+
+.serch-body{
+    height: 4%;
+    width: 38%;
+    background-color: rgb(69, 68, 68);
+    margin-top: 50px;
+    display: flex;
+    align-items: center;    
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    
+}
+
+.serch-input{
+    height: 100%;
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serch-button{
+    width: 15%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.input{
+    width: 100%;
+    height: 88%;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.button{
+    background-color: rgba(240, 248, 255, 0);
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.material-symbols-outlined{
+    color: gray;
+}
+
+.button:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+}
+
+.input::placeholder{
+    color: gray;
+}
+
+.button:hover .material-symbols-outlined{
+    color: white;
+}
+
+.main-content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+
+.card-body{
+    background-color: gray;
+    border: none;
+    margin-right: 40px;
+}
+
+.card{
+    background-color: gray;
+    border: 3px solid black;
+    margin-right: 40px;
+}
+
+.btn{
+    background-color: rgb(69, 68, 68);
+    color: white;
+}
+
+.btn:hover{
+   cursor: pointer;
+   color: white;
+   background-color: rgb(69, 68, 68);
+}
+
+.card:hover{
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    border-top: 2px solid black;
+}
+
+.end-line{
+    height: 50px;
+    border-top: 2px solid black;
+}
