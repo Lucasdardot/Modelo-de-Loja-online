@@ -119,6 +119,7 @@ body{
 .card:hover{
     border: 3px solid white;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .section-title{
